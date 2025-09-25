@@ -1,3 +1,4 @@
+# AUswertungsskript Bachelorarbeit 
 setwd("C:/Uni/BA/FINAL")
 dat <- readxl::read_xlsx("data_Secco_BA_2025-09-01_14-23.xlsx") # 250
 dat <- dat[-1, ]
